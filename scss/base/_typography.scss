@@ -1,0 +1,74 @@
+@use '../abstracts/' as *;
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+$heading-font-family: 'DM Serif Display', serif;
+$body-font-family: 'Karla', sans-serif;
+
+h1 {
+  font-family: $heading-font-family;
+  color: $VeryLightGray;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 1.1;
+}
+
+h2 {
+  font-family: $heading-font-family;
+  font-weight: 400;
+}
+
+h3 {
+  font-family: $body-font-family;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 700;
+  color: $DarkGrayishViolet;
+  letter-spacing: 1.3px;
+}
+
+.footer__bottom {
+  a {
+    color: $DarkViolet;
+    text-transform: uppercase;
+    letter-spacing: 1.3px;
+    font-size: 12px;
+    font-weight: 700;
+    font-family: $body-font-family;
+    line-height: 1.9;
+  }
+}
+
+p {
+  font-family: $body-font-family;
+  color: $VeryLightGray;
+  line-height: 1.5;
+}
+
+.section__features-heading {
+  // border-top: 1px solid $DarkViolet;
+  // margin-top: 140px;
+  margin-bottom: 50px;
+  color: $DarkViolet;
+  position: relative;
+}
+
+.section__features-heading::before {
+  display: inline-block;
+  content: '';
+  border-top: 1px solid $DarkGrayishViolet;
+  width: 8rem;
+  right: 50%;
+  top: -50%;
+  transform: translate(50%, -1rem);
+  position: absolute;
+}
+
+.features p {
+  color: $DarkGrayishViolet;
+}
+
+.action__content h1 {
+  padding-bottom: 2.3rem;
+}

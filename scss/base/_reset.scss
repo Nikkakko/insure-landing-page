@@ -1,0 +1,26 @@
+@use '../abstracts/' as *;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+// .container {
+//   height: 100vh;
+// }
+// body {
+//   display: flex;
+//   height: 100vh;
+// }
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  &:hover {
+    text-decoration: underline;
+  }
+}

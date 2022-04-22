@@ -1,0 +1,47 @@
+@use '../abstracts/' as *;
+
+.btn {
+  cursor: pointer;
+  &:hover {
+    color: $GrayishBlue;
+  }
+  &:active {
+    transform: scale(0.98);
+  }
+}
+.insurance__content--btn {
+  border: 1px solid $VeryLightGray;
+  color: $VeryLightGray;
+  text-transform: uppercase;
+  font-size: 12px;
+  padding: 10px 25px;
+  background-color: transparent;
+  letter-spacing: 1.6px;
+  margin-top: 20px;
+}
+
+.action__content--btn {
+  border: 1px solid $VeryLightGray;
+  color: $VeryLightGray;
+  text-transform: uppercase;
+  font-size: 12px;
+  padding: 10px 25px;
+  background-color: transparent;
+  letter-spacing: 1.6px;
+}
+
+.menu__links-item--plans {
+  border: 1px solid $VeryLightGray;
+  color: $DarkViolet;
+  // text-transform: uppercase;
+  font-size: 14px;
+
+  padding: 10px 30px;
+  background-color: transparent;
+  // letter-spacing: 1.6px;
+  margin: 0;
+  &:hover {
+    background-color: $DarkViolet;
+    color: $VeryLightGray;
+  }
+}

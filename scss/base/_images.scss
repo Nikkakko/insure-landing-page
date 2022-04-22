@@ -1,0 +1,12 @@
+img {
+  width: 100%;
+  height: 100%;
+}
+
+.image__intro--desktop {
+  display: none;
+}
+.image__intro--mobile {
+  display: flex;
+  // height: 75vh;
+}
